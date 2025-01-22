@@ -35,34 +35,34 @@ export default function AdminDashboard() {
     <div className="min-h-screen flex bg-gray-100">
       {/* Sidebar */}
       <aside className="w-64 bg-blue-600 text-white shadow-md p-6">
-        <h2 className="text-xl font-bold mb-6">Menú</h2>
-        <ul className="space-y-4">
-          <li>
-            <a
-              href="/admin/products"
-              className="block px-4 py-2 rounded hover:bg-blue-700"
-            >
-              Productos
-            </a>
-          </li>
-          <li>
-            <a
-              href="/admin/users"
-              className="block px-4 py-2 rounded hover:bg-blue-700"
-            >
-              Usuarios
-            </a>
-          </li>
-          <li>
-            <a
-              href="/admin/categories"
-              className="block px-4 py-2 rounded hover:bg-blue-700"
-            >
-              Categorías
-            </a>
-          </li>
-        </ul>
-      </aside>
+  <h2 className="text-xl font-bold mb-6">Menú</h2>
+  <ul className="space-y-4">
+    <li>
+      <a
+        href="/admin/products"
+        className="block px-4 py-2 rounded hover:bg-blue-700"
+      >
+        Productos
+      </a>
+    </li>
+    <li>
+      <a
+        href="/admin/users"
+        className="block px-4 py-2 rounded hover:bg-blue-700"
+      >
+        Usuarios
+      </a>
+    </li>
+    <li>
+      <a
+        href="/admin/categories"
+        className="block px-4 py-2 rounded hover:bg-blue-700"
+      >
+        Categorías
+      </a>
+    </li>
+  </ul>
+</aside>
 
       {/* Contenido principal */}
       <div className="flex-1 p-6">
